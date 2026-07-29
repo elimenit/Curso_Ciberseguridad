@@ -1,4 +1,4 @@
-# Curso de ciberseguridad desde cero.
+# Curso de Ciberseguridad Desde Cero.
 ## PROLOGO
     Buenos días a todos. Se dice que hoy en día existen dos tipos de empresas: las que han sido hackeadas y las que aún no saben que lo han sido.
 
@@ -36,6 +36,7 @@ Los temas pueden cambiar o variar con el tiempo, lo que cabe recalcar es que est
     Objetivo: Introduccion al Curso y primeros pasos de la logica linguistica.
     - Introduccion al curso.
     - Logica proposicional
+
 - ***Modulo 1***: "Logica y Programacion"
     El objetivo es que le pierdan el miedo a la consola y aprendan a pensar como programadores, usando lenguajes útiles para seguridad.
 
