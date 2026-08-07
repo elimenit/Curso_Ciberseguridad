@@ -1,6 +1,6 @@
 # ⚠️ Descargo de Responsabilidad (Disclaimer)
 
-*Este contenido es de carácter exclusivamente informativo y educativo. Por favor, lee atentamente el siguiente aviso.*
+*Este contenido es de caracter exclusivamente informativo y educativo. Por favor, lee atentamente el siguiente aviso.*
 
 ---
 

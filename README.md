@@ -1,4 +1,4 @@
-# Curso de Ciberseguridad Desde Cero.
+# Curso de ciberseguridad desde cero.
 ## PROLOGO
     Buenos días a todos. Se dice que hoy en día existen dos tipos de empresas: las que han sido hackeadas y las que aún no saben que lo han sido.
 
@@ -36,34 +36,24 @@ Los temas pueden cambiar o variar con el tiempo, lo que cabe recalcar es que est
     Objetivo: Introduccion al Curso y primeros pasos de la logica linguistica.
     - Introduccion al curso.
     - Logica proposicional
-
 - ***Modulo 1***: "Logica y Programacion"
     El objetivo es que le pierdan el miedo a la consola y aprendan a pensar como programadores, usando lenguajes útiles para seguridad.
 
-    - Parte 1: Entendiendo la Terminal: Navegación básica en Linux y Windows.
-
-    - Parte 3: Bash Scripting 1: Variables, entradas y salidas.
-
-    - Parte 4: Bash Scripting 2: Condicionales (if/else) y operadores lógicos.
-
-    - Parte 5: Bash Scripting 3: Bucles (for, while) para automatizar tareas repetitivas.
-
-    - Parte 6: Bash Scripting 4: Filtrado de texto (grep, cut, awk).
-
-    - Parte 7: Python 1: Sintaxis básica, variables y tipos de datos.
-
-    - Parte 8: Python 2: Listas, diccionarios y control de flujo.
-
-    - Parte 9: Python 3: Funciones y modularización del código.
-
-    - Parte 10: Python 4: Lectura y escritura de archivos (parsear logs).
-
-    - Parte 11: PowerShell 1: Qué son los Cmdlets y el pipeline (vs. Linux).
-
-    - Parte 12: PowerShell 2: Filtrado y manipulación de objetos en Windows.
-
-    - Parte 13: Proyecto Integrador: Un script que busque archivos y filtre información en los tres lenguajes.
-    
+   - **Parte 0:** Preparando el Arsenal: Instalación de VirtualBox, Kali Linux y VSCode.
+    > - **Parte 1:** Entendiendo la Terminal: Navegación básica en entornos Linux y Windows.
+    - **Parte 2:** Gestión de Permisos: Usuarios, grupos y privilegios (Lectura, escritura y ejecución).
+    - **Parte 3:** Bash Scripting I: Variables, entradas del usuario y salidas.
+    - **Parte 4:** Bash Scripting II: Condicionales (if/else) y operadores lógicos.
+    - **Parte 5:** Bash Scripting III: Bucles (for, while) para automatizar tareas repetitivas y escaneos.
+    - **Parte 6:** Bash Scripting IV: Filtrado y manipulación de texto (grep, cut, awk) para analizar comandos.
+    - **Parte 7:** Python I: Sintaxis básica, variables y tipos de datos.
+    - **Parte 8:** Python II: Listas, diccionarios y control de flujo.
+    - **Parte 9:** Python III: Funciones y modularización del código para crear nuestras propias herramientas.
+    - **Parte 10:** Python IV: Lectura y escritura de archivos (Ej: Parsear logs de servidores).
+    - **Parte 11:** PowerShell I: Qué son los Cmdlets, alias y el pipeline (vs. Linux).
+    - **Parte 12:** PowerShell II: Filtrado y manipulación de objetos para enumeración en Windows.
+    - **Parte 13:** Proyecto Integrador: Creación de un script multiplataforma que busque archivos y filtre información sensible usando los tres lenguajes.
+        
 - ***Modulo 2***: "Arquitectura y Sistemas Operativos"
     Desgranamos cómo funcionan los sistemas. Si no entienden la estructura, no pueden encontrar fallos.
 
