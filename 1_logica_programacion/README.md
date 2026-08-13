@@ -12,11 +12,11 @@ Un enorme agradecimiento a los sponsors por su colaboración y a todos ustedes p
 ## Estructura de Temas
 
 - **Parte 0:** Preparando el Arsenal: Instalación de VirtualBox, Kali Linux y VSCode.
-> - **Parte 1:** Entendiendo la Terminal: Navegación básica en entornos Linux y Windows.
-- **Parte 2:** Gestión de Permisos: Usuarios, grupos y privilegios (Lectura, escritura y ejecución).
+- **Parte 1:** Entendiendo la Terminal: Navegación básica en entornos Linux y Windows.
+> - **Parte 2:** Gestión de Permisos: Usuarios, grupos y privilegios (Lectura, escritura y ejecución).
 - **Parte 3:** Bash Scripting I: Variables, entradas del usuario y salidas.
-- **Parte 4:** Bash Scripting II: Condicionales (if/else) y operadores lógicos.
-- **Parte 5:** Bash Scripting III: Bucles (for, while) para automatizar tareas repetitivas y escaneos.
+- **Parte 4:** Bash Scripting II: Condicionales (if/else) y Bucles (for, while, case).
+- **Parte 5:** Bash Scripting III: Bucles (for, while, case) para automatizar tareas repetitivas y escaneos.
 - **Parte 6:** Bash Scripting IV: Filtrado y manipulación de texto (grep, cut, awk) para analizar comandos.
 - **Parte 7:** Python I: Sintaxis básica, variables y tipos de datos.
 - **Parte 8:** Python II: Listas, diccionarios y control de flujo.

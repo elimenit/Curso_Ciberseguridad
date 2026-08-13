@@ -44,7 +44,7 @@ Los temas pueden cambiar o variar con el tiempo, lo que cabe recalcar es que est
     - **Parte 2:** Gestión de Permisos: Usuarios, grupos y privilegios (Lectura, escritura y ejecución).
     - **Parte 3:** Bash Scripting I: Variables, entradas del usuario y salidas.
     - **Parte 4:** Bash Scripting II: Condicionales (if/else) y operadores lógicos.
-    - **Parte 5:** Bash Scripting III: Bucles (for, while) para automatizar tareas repetitivas y escaneos.
+    - **Parte 5:** Bash Scripting III: Bucles (for, while, case).
     - **Parte 6:** Bash Scripting IV: Filtrado y manipulación de texto (grep, cut, awk) para analizar comandos.
     - **Parte 7:** Python I: Sintaxis básica, variables y tipos de datos.
     - **Parte 8:** Python II: Listas, diccionarios y control de flujo.
