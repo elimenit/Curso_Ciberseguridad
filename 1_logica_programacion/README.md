@@ -13,15 +13,17 @@ Un enorme agradecimiento a los sponsors por su colaboración y a todos ustedes p
 
 - **Parte 0:** Preparando el Arsenal: Instalación de VirtualBox, Kali Linux y VSCode.
 - **Parte 1:** Entendiendo la Terminal: Navegación básica en entornos Linux y Windows.
-> - **Parte 2:** Gestión de Permisos: Usuarios, grupos y privilegios (Lectura, escritura y ejecución).
+- **Parte 2:** Gestión de Permisos: Usuarios, grupos y privilegios (Lectura, escritura y ejecución).
 - **Parte 3:** Bash Scripting I: Variables, entradas del usuario y salidas.
-- **Parte 4:** Bash Scripting II: Condicionales (if/else) y Bucles (for, while, case).
-- **Parte 5:** Bash Scripting III: Bucles (for, while, case) para automatizar tareas repetitivas y escaneos.
-- **Parte 6:** Bash Scripting IV: Filtrado y manipulación de texto (grep, cut, awk) para analizar comandos.
-- **Parte 7:** Python I: Sintaxis básica, variables y tipos de datos.
-- **Parte 8:** Python II: Listas, diccionarios y control de flujo.
-- **Parte 9:** Python III: Funciones y modularización del código para crear nuestras propias herramientas.
-- **Parte 10:** Python IV: Lectura y escritura de archivos (Ej: Parsear logs de servidores).
-- **Parte 11:** PowerShell I: Qué son los Cmdlets, alias y el pipeline (vs. Linux).
-- **Parte 12:** PowerShell II: Filtrado y manipulación de objetos para enumeración en Windows.
-- **Parte 13:** Proyecto Integrador: Creación de un script multiplataforma que busque archivos y filtre información sensible usando los tres lenguajes.
+> - **Parte 4:** Bash Scripting II: Procesos, condicionales, Bucles, directorios y archivos.
+- **Parte 5:** Bash Scripting III: Comandos Basicos de redes
+- **Parte 6:** Bash Scripting IV: labs
+- **Parte 7:** Python I: Sintaxis básica, variables, tipos de datos, Condicionales, Bucles, funciones(Recursividad, lambda) y archivos.
+- **Parte 8:** Python II: Librerias estandar de Python (socket, subprocess, typing, ...)
+- **Parte 9:** Python III: TDAs/Clases POO(Programacion Orientada a Objetos).  
+- **Parte 10:** Python IV: Desarrollo Web (FastAPI/Flask)
+- **Parte 11** Python V: Implementacion de un C2 (Command & Control)
+- **Parte 12** Python VI: Introduccion al desarrollo de Malware
+- **Parte 13:** PowerShell I: Qué son los Cmdlets, alias y el pipeline (vs. Linux).
+- **Parte 14:** PowerShell II: Filtrado y manipulación de objetos para enumeración en Windows.
+- **Parte 15:** Proyecto Integrador: Creación de un script multiplataforma que busque archivos y filtre información sensible usando los tres lenguajes.        

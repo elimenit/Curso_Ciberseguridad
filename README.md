@@ -1,4 +1,4 @@
-# Curso de ciberseguridad desde cero.
+# Curso de Ciberseguridad desde Cero.
 ## PROLOGO
     Buenos días a todos. Se dice que hoy en día existen dos tipos de empresas: las que han sido hackeadas y las que aún no saben que lo han sido.
 
@@ -39,20 +39,22 @@ Los temas pueden cambiar o variar con el tiempo, lo que cabe recalcar es que est
 - ***Modulo 1***: "Logica y Programacion"
     El objetivo es que le pierdan el miedo a la consola y aprendan a pensar como programadores, usando lenguajes útiles para seguridad.
 
-   - **Parte 0:** Preparando el Arsenal: Instalación de VirtualBox, Kali Linux y VSCode.
-    > - **Parte 1:** Entendiendo la Terminal: Navegación básica en entornos Linux y Windows.
+    - **Parte 0:** Preparando el Arsenal: Instalación de VirtualBox, Kali Linux y VSCode.
+    - **Parte 1:** Entendiendo la Terminal: Navegación básica en entornos Linux y Windows.
     - **Parte 2:** Gestión de Permisos: Usuarios, grupos y privilegios (Lectura, escritura y ejecución).
     - **Parte 3:** Bash Scripting I: Variables, entradas del usuario y salidas.
-    - **Parte 4:** Bash Scripting II: Condicionales (if/else) y operadores lógicos.
-    - **Parte 5:** Bash Scripting III: Bucles (for, while, case).
-    - **Parte 6:** Bash Scripting IV: Filtrado y manipulación de texto (grep, cut, awk) para analizar comandos.
-    - **Parte 7:** Python I: Sintaxis básica, variables y tipos de datos.
-    - **Parte 8:** Python II: Listas, diccionarios y control de flujo.
-    - **Parte 9:** Python III: Funciones y modularización del código para crear nuestras propias herramientas.
-    - **Parte 10:** Python IV: Lectura y escritura de archivos (Ej: Parsear logs de servidores).
-    - **Parte 11:** PowerShell I: Qué son los Cmdlets, alias y el pipeline (vs. Linux).
-    - **Parte 12:** PowerShell II: Filtrado y manipulación de objetos para enumeración en Windows.
-    - **Parte 13:** Proyecto Integrador: Creación de un script multiplataforma que busque archivos y filtre información sensible usando los tres lenguajes.
+    - **Parte 4:** Bash Scripting II: Procesos, Directorios, condicionales y Bucles.
+    - **Parte 5:** Bash Scripting III: Comandos Basicos de Redes.
+    - **Parte 6:** Bash Scripting IV: labs
+    - **Parte 7:** Python I: Sintaxis básica, variables, tipos de datos, Condicionales, Bucles, funciones(Recursividad, lambda) y archivos.
+    - **Parte 8:** Python II: Librerias estandar de Python (socket, subprocess, typing, ...)
+    - **Parte 9:** Python III: TDAs/Clases POO(Programacion Orientada a Objetos).  
+    - **Parte 10:** Python IV: Desarrollo Web (FastAPI/Flask)
+    - **Parte 11** Python V: Implementacion de un C2 (Command & Control)
+    - **Parte 12** Python VI: Introduccion al desarrollo de Malware
+    - **Parte 13:** PowerShell I: Qué son los Cmdlets, alias y el pipeline (vs. Linux).
+    - **Parte 14:** PowerShell II: Filtrado y manipulación de objetos para enumeración en Windows.
+    - **Parte 15:** Proyecto Integrador: Creación de un script multiplataforma que busque archivos y filtre información sensible usando los tres lenguajes.
         
 - ***Modulo 2***: "Arquitectura y Sistemas Operativos"
     Desgranamos cómo funcionan los sistemas. Si no entienden la estructura, no pueden encontrar fallos.
@@ -88,7 +90,7 @@ Los temas pueden cambiar o variar con el tiempo, lo que cabe recalcar es que est
 - ***Modulo 3***: "Redes de Computadoras y Protocolos"
     Expandido para cubrir desde la conmutación local hasta el enrutamiento global.
     
-    - Parte 28: Direcciones MAC, Switches y el protocolo ARP (¿Cómo se conocen las máquinas?).
+    - Parte 28: Diseño de Redes Jerarquico (Direcciones MAC, Switches, ARP)
 
     - Parte 29: IPv4 a fondo: Clases, Subnetting, VLSM y CIDR (Matemática de redes).
 
