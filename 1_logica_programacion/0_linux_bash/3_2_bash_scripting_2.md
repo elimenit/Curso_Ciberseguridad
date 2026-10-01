@@ -70,3 +70,8 @@ dig @1.1.1.1 example.com
 ```bash
 dig -x 8.8.8.8
 ```
+
+
+```bash
+dig +trace
+```

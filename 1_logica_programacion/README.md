@@ -18,9 +18,9 @@ Un enorme agradecimiento a los sponsors por su colaboración y a todos ustedes p
 > - **Parte 4:** Bash Scripting II: Procesos, condicionales, Bucles, directorios y archivos.
 - **Parte 5:** Bash Scripting III: Comandos Basicos de redes
 - **Parte 6:** Bash Scripting IV: labs
-- **Parte 7:** Python I: Sintaxis básica, variables, tipos de datos, Condicionales, Bucles, funciones(Recursividad, lambda) y archivos.
-- **Parte 8:** Python II: Librerias estandar de Python (socket, subprocess, typing, ...)
-- **Parte 9:** Python III: TDAs/Clases POO(Programacion Orientada a Objetos).  
+- **Parte 7:** Python I: Sintaxis básica, variables, tipos de datos, Condicionales, Bucles, funciones(Recursividad, lambda) y manejo de archivos.
+- **Parte 8:** Python II: TDAs/Clases POO(Programacion Orientada a Objetos).
+- **Parte 9:** Python III: Librerias estandar de Python (socket, subprocess, typing, ...)
 - **Parte 10:** Python IV: Desarrollo Web (FastAPI/Flask)
 - **Parte 11** Python V: Implementacion de un C2 (Command & Control)
 - **Parte 12** Python VI: Introduccion al desarrollo de Malware

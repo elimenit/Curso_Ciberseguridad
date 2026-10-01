@@ -36,6 +36,7 @@ Los temas pueden cambiar o variar con el tiempo, lo que cabe recalcar es que est
     Objetivo: Introduccion al Curso y primeros pasos de la logica linguistica.
     - Introduccion al curso.
     - Logica proposicional
+    
 - ***Modulo 1***: "Logica y Programacion"
     El objetivo es que le pierdan el miedo a la consola y aprendan a pensar como programadores, usando lenguajes útiles para seguridad.
 
@@ -46,15 +47,18 @@ Los temas pueden cambiar o variar con el tiempo, lo que cabe recalcar es que est
     - **Parte 4:** Bash Scripting II: Procesos, Directorios, condicionales y Bucles.
     - **Parte 5:** Bash Scripting III: Comandos Basicos de Redes.
     - **Parte 6:** Bash Scripting IV: labs
-    - **Parte 7:** Python I: Sintaxis básica, variables, tipos de datos, Condicionales, Bucles, funciones(Recursividad, lambda) y archivos.
-    - **Parte 8:** Python II: Librerias estandar de Python (socket, subprocess, typing, ...)
-    - **Parte 9:** Python III: TDAs/Clases POO(Programacion Orientada a Objetos).  
-    - **Parte 10:** Python IV: Desarrollo Web (FastAPI/Flask)
+    - **Parte 7:** Python I: Sintaxis básica, variables, tipos de datos, Condicionales, Bucles, funciones(Recursividad, lambda) y Manejo de Archivos.
+    - **Parte 8:** Python II: TDAs/Clases POO(Programacion Orientada a Objetos).  
+    - **Parte 9:** Python III: Desarrollo Web (FastAPI/Flask & HTML /CSS /JS)
+    
+    > De aqui para Abajo Segunda Parte o 500 K likes!
+
+    - **Parte 10:** Python IV: Librerias estandar de Python (socket, subprocess, typing, ...).
     - **Parte 11** Python V: Implementacion de un C2 (Command & Control)
-    - **Parte 12** Python VI: Introduccion al desarrollo de Malware
-    - **Parte 13:** PowerShell I: Qué son los Cmdlets, alias y el pipeline (vs. Linux).
+    - **Parte 12** Python VI: Analisis & introspeccion de Malware.
+    - **Parte 13:** PowerShell I: Qué son los Cmdlets, alias y el pipeline.
     - **Parte 14:** PowerShell II: Filtrado y manipulación de objetos para enumeración en Windows.
-    - **Parte 15:** Proyecto Integrador: Creación de un script multiplataforma que busque archivos y filtre información sensible usando los tres lenguajes.
+    - **Parte 15:** Proyecto Integrador: Crear un APT (Advanced Persistem Threats) y un RAT(Remote Acces Troyan).
         
 - ***Modulo 2***: "Arquitectura y Sistemas Operativos"
     Desgranamos cómo funcionan los sistemas. Si no entienden la estructura, no pueden encontrar fallos.
