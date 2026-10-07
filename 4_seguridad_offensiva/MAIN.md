@@ -349,23 +349,23 @@ Cyber KIll Chain --> Phishing --> Ransomware
     - **Red Team**: Prepara el correo y el artefacto malicioso (**Payload**).
     - **Blue Team**: Aplica controles de Seguridad en correo electronico.
 
-- 2) **Entrega**:
+- 3) **Entrega**:
     - **Red Team**: Enviar el correo phishing (link/adjunto) a la victima.
     - **Blue Team**: Filtra phishing y valida autenticacion de dominio (*SPF/DKIM/DMARC*)
 
-- 2) **Explotacion**:
+- 4) **Explotacion**:
     - **Red Team**: Provoca Interaccion del Usuario y dispara la ejecutacion inicial.
     - **Blue Team**: Aplica controles de ejecucion y prevencion de exploits (**Hardening / EDR*).
 
-- 2) **Instalacion**:
+- 5) **Instalacion**:
     - **Red Team**: Descarga, instala y establece persistencia del malware.
     - **Blue Team**: Controla aplicaciones y persistencia (allowlisting / politicas)
 
-- 2) **Comando y Control**:
+- 6) **Comando y Control**:
     - **Red Team**: Se comunica con la infraestructura del atacante (C2).
     - **Blue Team**: Monitorea y Bloquea comunicaciones C2 (*Proxy / DNS / IDS*).
 
-- 2) **Acciones Sobre el Objetivo**:
+- 7) **Acciones Sobre el Objetivo**:
     - **Red Team**: Cifra archivos, exfiltra informacion y extorsiona a la organizacion.
     - **Blue Team**: Asegura babckups, respuestas a incidentes y resiliencia (*Contencion / Recuperacion*).
 

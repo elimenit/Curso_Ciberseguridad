@@ -1,12 +1,12 @@
 # Python I: Sintaxis básica, variables, tipos de datos, Condicionales, Bucles, funciones(Recursividad, lambda) y Manejo de Archivos
-Es un lenguaje multiparadigma de Programacion Orientado a Objetos Puro de proposito General.
+Es un lenguaje multiparadigma(POO puro, Funcional, ...) de Programacion de proposito General.
 
 Su creador es Guido Van Rossum.
 
-Es Administrado por la Python Software Foundation.
+Es Gestionado por la Python Software Foundation.
 
 ## Sintaxis 
-Es el conjunto de reglas que define las combinaciones de símbolos que se consideran declaraciones o expresiones correctamente estruc    turadas en ese lenguaje.
+Es el conjunto de reglas que define las combinaciones de símbolos que se consideran declaraciones o expresiones correctamente estructuradas en ese lenguaje.
 
 ```python
 cadena_de_texto  =  "Valor"
@@ -37,6 +37,22 @@ div_entera = 10 // 3
 ## Potencia(**, pow(a, b))
 potencia = 10 ** 2
 ```
+## Convencion de Nomenclaturas
+- ***Camel Case(casoCamello)***: La primera palabra comienza en minuscula y cada palabra subsiguiente con mayuscula
+    - ***Uso***: variables y funciones en algunos lenguajes de programacion (Java, JavaScript, GO).
+
+- ***Pascal Case (PascalCase)***: Todas las palabras se escriben con mayusculas.
+    - ***Uso***: Nombre de Clases, Interfaces o Componentes.
+
+- ***Snake Case (snake_case)***: Todas las parabras en minusculas y separadas por guin bajo (_).
+    - ***Uso***: Variables y funciones en algunos lenguajes de Programacion (Python, Ruby, Rust).
+
+- ***Screaming Snake Case (SCREAMING_SNAKE_CASE)***: Todas las palabras en mayusculas y separados por guiones bajos.
+    - ***Uso***: Constantes o Variables Globales.
+
+- ***Kebab Case(kebab-case)***: Todas las palabras se escriben en minusculas y estan separadas por guiones medios.
+    - ***Uso***: Nombres de archivos, URLs, CSS y HTML.
+
 
 ## Tipos de Datos en Python
 Los tipos de Datos primitivos en Python.
@@ -51,7 +67,7 @@ tupla = (1, 2, 3, 4) # Tuple
 conjunto = {1, 2, 3, 4} # Set
 dicionario = {"Clave": "Valor", "Key": "Value"} # Dictionary
 ```
-## Estilo de la declaracion de Variables!
+
 ## Duck Typing o Type Hints 
 Es indicarle al interprete de Python que tipo de dato es una variable
 
@@ -160,7 +176,38 @@ help(set)
 copia_conjunto = conjunto.copy() # Retorna una copia de todos los elementos del conjunto.
 elemento_random = conjunto.pop() # Retorna y elimina un arbitrario elemento del conjunto 
 ```
+### Diccionarios
+Es un estructura de datos Clave-Valor,donde se debe cumplir que la clave debe ser unica.
 
+```python
+# CREATE
+diccionario: dict = {"Clave": "Valor"}
+
+## ADD
+clave: int = 10
+diccionario[clave] = "10"
+# GET
+print(diccionario[clave])
+# UPDATE
+diccionario[clave] = "Nuevo Valor"
+
+# DELETE
+del diccionario[clave]
+# Ayuda
+help(dict)
+## Metodos 
+diccionario.dict() # Retorna nuevo diccionario vacio.
+diccionario(**kwargs) # Nuevo diccionario inicializado con los pares name=value; dict(one=1, two=2).
+diccionario.clear() # Remueve todos los items del diccionario.
+diccionario.copy() # Retorna una copia total del diccionario.
+diccionario.get(key="Hola", default=None) # Retorna el valor para la clave key if la clave esta en el diccionario, sino default.
+diccionario.items() # Retorna una iterable clave-valor proveendo una vista de los items de el diccionario.
+diccionario.keys() # Retorna un iterable de las claves proveendo una vista de las claves de el diccionario.
+diccionario.pop(key="Hola") # Remueve la clave especifica y retorna el valor correspondiente, si la clave no es encontrada, retorna el valor default, sino lanza la exceptcion KeyError.
+diccionario.popitem() # Remueve y devuelve un par como tuplas (clave, valor). Pares estan retornando en el orden LIFO (last-in, first-out), lanza la exception KeyError si el diccionario esta vacio.
+diccionario.update(iterable) # ... Investigar...
+diccionario.values() # Retorna un objeto proveendo una vista en los valores del diccionario.
+```
 ## Tipos de datos Inmutables
 Son tipos de datos que su estructura interna no se altera.
 
@@ -204,10 +251,99 @@ del tupla # Elimina la tupla con todos sus elementos
 del tupla[posicion] # NO PERMITIDO 
 ```
 ## Condicionales (If, Else, Elif y Match-Case)
+### Estructura del If-Else:
+EL if verifica que si la condicion dentro del bloque es verdadera se ejecute el bloque de instrucciones dentro del if
+```python
+## Booleanos
+condicion: bool = True
+if condicion:
+    print(f"La condicion [{condicion}] es verdadero!")
+
+# Thurty & Falsy
+if "Cadena":
+    print("La cadena de texto existe!")
+
+if "":
+    print("existe")
+else:
+    print("No existe")
+
+## Conjuncion Tabla de verdad
+a: bool = True
+b: bool = True
+
+if a and b:
+    print("El resultado de la conjuncion es verdadera")
+else:
+    print("La conjuncion es falsa")
+
+a = False 
+b = False
+
+# negacion conjuncion
+if not a and b:
+    print("...")
+else:
+    print("....")
+
+## Disjuncion
+a = True
+b = False
+
+if a or b:
+    print("Disjuncion Verdadera")
+else:
+    print("Me mentistes...")
+
+## If-Else-Elif
+# Si un estudiante de la UBA tiene exactamente 1 millon de dolares imprime 'Millonario', si tiene mas imprime "Multimillonario" y sino imprime "Economicamente bajo".
+dolares_alumno: int = 1_000_000
+
+if dolares_alumno == 1_000_000:
+    print("Millonario")
+elif dolares_alumno > 1_000_000:
+    print("Multimillonario")
+else:
+    print("Economicamente bajo")
+```
+
+### Estructura Match - Case
+Utilizaremos el Match - Case cuando tengamos que evaluar mas de un caso para una misma variable.
+
+```python
+# Solicite e imprima el nombre del numero ingresado por el usuario.
+
+constante: int = int(input("Ingrese un numero del 1 al  10: "))
+
+match constante:
+    case 0:
+        print("0")
+    case 1:
+        print("Uno")
+    case 2:
+        print("Dos")
+    case 3:
+        print("Tres")
+    case:
+        print("numero fuera de rango")
+
+print("fin de los condicionales")
+```
 
 ## Bucles (For, While y Match)
 > El bucle For se usa cuando no se la cantidad de veces que tengo que iterar.
 > EL bucle While se usa cuando no se cuando dejar de iterar.
+
+Ejemplos de un for:
+    - imprima los numeros del 1 al 1000
+    - cuantos numeros pares hay del 1 al 100.
+    - cuantos numeros primos hay del 1 al 100.
+
+Ejemplos de un while:
+    - Encuentre el 5 multiplo de 17.
+    - Imprima los 5 primeros numeros pares.
+    - Recorrer una lista y encontrar el primer numero.
+
 ## Analisis de Algoritmos
 - Que es un Algoritmo ?
 Un **Algoritmo** es un conjunto de pasos (instrucciones) para resolver un problema y debe tener dos caracteristicas:
@@ -422,7 +558,6 @@ En cualquier algoritmo, nos podemos encontrar con los siguientes tipos de operac
     - Para conocer este numero medio, debemos tomar todas las posibles entradas y calcular sus numero de operaciones.
     - El analisis del caso medio no es facil de estimar en la mayoria de los casos.
 
-
 ## Funciones
 Python soporta el paradigma de programacion *Funcional* que nos permite estructurar el codigo repetido en funciones.
 
@@ -490,14 +625,29 @@ Una variable en Python puede tener solo dos alcances:
             VARIABLE_GLOBAL = 10 # Error
             global VARIABLE_GLOBAL = 100 # Correcto
 
+        def funcion_local():
+            nonlocal variable_global
+
     print(VARIABLE_GLOBAL) # Existe
 
     def funcion():
         VARIABLE_LOCAL = 100 
     
     print(VARIABLE_LOCAL) # ERROR, no existe VARIABLE_LOCAL.
+
     ```
-        
+
+## Buenas Practicas de Programacion de Python (PEP).
+
+### Ley
+- El Codigo se lee mas de lo que se escribe!.
+
+### PEP (Python Enhancement Proposals)
+[Documentacion Oficial](peps.python.org)
+- ***PEP8 (Guia de Estilo para codigo Python)***:
+    Visitar: peps.python.org/pep-0008
+
+- Asi on todos los PEPS 1, 2, 3, ...
 
 ## Paradigmas de Programacion
 Python es un paradigma hibrido (Imperativo + funcional)
@@ -704,5 +854,54 @@ Si se encadenan muchas llamadas recursivas, es posible que se produzca un desbor
 
 > Lo Iterativo es Humano, Lo recursivo es divino!.
 
-## Testing o Documetacion
-> Testear es Documentar y Documentar es Testear
+## Testing o Documentacion
+Las pruebas de Software se clasifican segun su Objetivo (funcionales vs no funcionales), Nivel de Abstraccion y su metodologia de ejecucion.
+
+### Nivel de Abstraccion
+- ***Pruebas Unitarias(Unit Testing)***: Prueban el componente mas pequeño en aislamiento (funciones, clases(metodos)) 
+
+- ***Pruebas de Integracion(Integration Testing)***: Comprueban la comunicacion entre dos o mas  modulos externos(APIs, Base de Datos).
+
+- ***Pruebas E2E (End-to-end) (Vision del usuario final)***: Evaluan el sistema completo como un todo.
+
+* ***Segun el conocimiento del Codigo (Caja)***:
+    - ***Caja Negra(Black Box)***: El tester no conoce la arquitectura ni la estructura del codigo de software.
+
+    - ***Caja Blanca(White Box)***: EL tester tiene acceso total al codigo fuente y la arquitectura.
+
+    - ***Caja Gris(Gray Box)***: Conocimiento Parcial de la estructura interna.
+
+### Testing segun su Objetivo
+```python
+class Objeto()
+    atributo_clase = 10
+    def metodos(self, *parametros, **kwargs):
+        variable_instancia = parametros
+        return "Que te importa"
+
+```
+
+#### Pruebas Funcionales
+
+#### Pruebas NO Funcionales
+
+
+
+## 
+
+### Testing con Pytest
+
+[Documentacion Oficial](docs.pytest.org)
+
+Encontraremos ejemplos de como testear codigo Python:
+```python
+def inc(n):
+    return n+1
+
+def test_inc():
+    assert inc(4) == 5
+```
+
+### Testing con Unitest
+> Testear es Documentar y la Documentacion es Testing
+

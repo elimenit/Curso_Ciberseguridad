@@ -126,6 +126,8 @@ Los temas pueden cambiar o variar con el tiempo, lo que cabe recalcar es que est
 
 - ***Modulo 4***: "Seguridad Ofensiva (Web Hacking & Pentesting)
     La puerta de entrada al Red Team. Metodología, herramientas y explotación de vulnerabilidades modernas.
+    > HOST
+    > WEB
 
     - Parte 59: La Metodología del Pentester (PTES y OSSTMM).
 
