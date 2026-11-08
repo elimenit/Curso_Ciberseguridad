@@ -15,7 +15,7 @@ Existen cuatro tipos de nubes:
 
 ## Computacion en la Nube y Virtualizacion
 
-La Virtualizacion es la Base de la computaion en la Nube.
+La Virtualizacion es la Base de la computación en la Nube.
 
 La virtualización significa crear una versión virtual un lugar de una versión física de algo. Un ejemplo es una computadora con Linux en windows.
 
